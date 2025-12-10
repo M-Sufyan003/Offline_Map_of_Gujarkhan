@@ -1,21 +1,21 @@
-Leaflet Offline Land Record System
+# Leaflet Offline Land Record System
 
 An offline web-based mapping system built with Leaflet.js, designed to display land plots using GeoJSON data converted from KML/KMZ files.
 The project supports searching plots, zooming to specific areas, and visualizing boundaries without requiring an internet connection.
 
-Features
+# Features
 
-Fully offline map rendering
+- Fully offline map rendering
 
-Load GeoJSON plot data (converted from KML/KMZ)
+- Load GeoJSON plot data (converted from KML/KMZ)
 
-Interactive plot highlighting
+- Interactive plot highlighting
 
-Search by plot number, owner name, or coordinates
+- Search by plot number, owner name, or coordinates
 
-Zoom to selected plot
+- Zoom to selected plot
 
-Lightweight, fast, no backend required
+- Lightweight, fast, no backend required
 
 # Project Structure
 project/
@@ -30,19 +30,19 @@ project/
 
 # How to Run (Using VS Code Live Server)
 
-Install the Live Server extension in VS Code
+- Install the Live Server extension in VS Code
 
-Open your project folder
+- Open your project folder
 
-Right-click index.html
+- Right-click index.html
 
-Click “Open with Live Server”
+- Click “Open with Live Server”
 
-The map will open in your default browser
+- The map will open in your default browser
 
 # How GeoJSON Is Loaded
 
-Your plot data is stored in /data/plots.geojson.
+- Your plot data is stored in /data/plots.geojson.
 
 Example logic (in script.js):
 
@@ -54,12 +54,12 @@ fetch("data/plots.geojson")
 
 # Offline Map Options
 
-This project is designed for offline use.
-You can choose any of the following methods:
+- This project is designed for offline use.
+- You can choose any of the following methods:
 
-Use a georeferenced image overlay (PNG/JPG)
+1.Use a georeferenced image overlay (PNG/JPG)
 
-Use offline tiles (optional, more advanced)
+2.Use offline tiles (optional, more advanced)
 
 # Contributions
 
