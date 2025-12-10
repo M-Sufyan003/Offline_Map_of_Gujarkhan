@@ -1,11 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GK offline Map</title>
+    <link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="Data/leaflet.css">
+<script src="Data/leaflet.js"></script>
+
+
 </head>
+
 <body>
-    
+    <div class="main" id="map">
+        <div class="searchBarDiv">
+            <input type="text" placeholder="Type Place OR  Coordinates.......!" id="srchBarInput">
+            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M15.5 15.5L20 20" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+                <circle cx="11" cy="11" r="6" stroke="currentColor" stroke-width="2" />
+            </svg>
+
+        </div>
+    </div>
+    <script src="script.js"></script>
 </body>
+
 </html>

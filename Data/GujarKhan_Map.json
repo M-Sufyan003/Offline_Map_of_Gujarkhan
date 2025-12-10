@@ -1,0 +1,3 @@
+{"type":"FeatureCollection", "features": [
+{"type":"Feature","geometry":{"type":"Point","coordinates":[73.3026077,33.2582873,0]},"properties":{"styleUrl":"#__managed_style_0E09CB64983C3CE676EE","fill-opacity":0.25098039215686274,"fill":"#ffffff","stroke-opacity":1,"stroke":"#fbc02d","stroke-width":3.2,"icon-offset":[64,128],"icon-offset-units":["pixels","insetPixels"],"icon":"https://earth.google.com/earth/document/icon?color=fbc02d&id=2000&scale=4"},"id":"09EA666CD53C3CE676C8"}
+]}
