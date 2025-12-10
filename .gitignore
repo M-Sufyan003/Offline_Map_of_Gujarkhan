@@ -1,0 +1,45 @@
+
+---
+
+# `.gitignore` (copy this whole block into `.gitignore`)
+
+```gitignore
+# Node / package
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# OS / Editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Build / logs
+/dist
+/build
+/*.log
+
+# Generated tiles or heavy binary data (usually don't commit)
+tiles/
+*.mbtiles
+*.sqlite
+*.tif
+*.zip
+
+# Optional: GeoJSON data folder
+# If your GeoJSON is large or sensitive, uncomment the next line to keep it out of git:
+# /data/*.geojson
+
+# Images/screenshots that are large
+/images/*.png
+/images/*.jpg
+
+# misc
+*.bak
+*.swp
